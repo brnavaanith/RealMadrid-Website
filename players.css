@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background: url(ChatGPT\ Image\ Jul\ 4\,\ 2026\,\ 12_17_06\ PM.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar .logo{
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+}
+
+.heading{
+    width: 90%;
+    margin: 40px auto 20px;
+    color: #002b6b;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.players{
+    display: flex;
+    flex-wrap: wrap;
+  
+    gap: 25px;
+    
+
+    width: 90%;
+    margin: 20px auto 50px;
+    
+    padding: 20px ;
+}
+
+.player-card{
+    /* flex: 0 0 250px; */
+    width: 200px;
+    height: 250px;
+
+    border-radius: 20px;
+    /* overflow: hidden; */
+    text-align: center;
+    
+}
+
+.players::-webkit-scrollbar{
+    height: 10px;
+}
+
+.players::-webkit-scrollbar-track{
+    background: #dcdcdc;
+    border-radius: 10px;
+}
+
+.players::-webkit-scrollbar-thumb{
+    background: #1f5dba;
+    border-radius: 10px;
+}
+
+
+.player-card:hover{
+    
+    box-shadow:0 12px 25px rgba(0,0,0,0.25);
+}
+
+.player-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    background:#D4AF37;
+    /* padding-top: 20px; */
+    border-radius: 10px;
+}
+
+.player-info{
+    padding:5px;
+    background:#0B1F3A;
+    margin-top: -70px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.player-info h2{
+    font-size:15px;
+    color:#fcfcfc;
+    margin-bottom:8px;
+}
+
+.player-info p{
+    color:#666;
+    font-size:18px;
+}
+
+.player-card span{
+    color: white;
+}
